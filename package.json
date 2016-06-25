@@ -1,0 +1,23 @@
+{
+  "name": "Scrape-status-of-reservation-of-Saitama-City-Library",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./node_modules/protractor/bin/webdriver-manager update",
+    "start": "./node_modules/protractor/bin/webdriver-manager start",
+    "scrape-saitama-city": "protractor --specs scrape-saitama-city.js"
+  },
+  "keywords": [
+    "Protractor",
+    "Saitama",
+    "Crawler"
+  ],
+  "author": "eiurur <eiurur789@gmail.com> (http://898525572.tumblr.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "protractor": "^3.3.0",
+    "twit": "^2.2.4"
+  }
+}
