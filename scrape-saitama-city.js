@@ -50,7 +50,7 @@ describe('さいたま市図書館', () => {
           }
         }
       })
-      .filter( info => info.data.reservationStatus.match(/受取待ち|搬送中/) );
+      .filter( info => info.data.reservationStatus.match(/用意できています|受取待ち|搬送中/) );
     })
     .then( infoList => {
 
